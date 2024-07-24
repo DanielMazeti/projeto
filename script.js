@@ -8,11 +8,11 @@ function toggleMode() {
   //substituir a imagem
   if (html.classList.contains("light")) {
     //se estiver light mode, adicionar a imagem light
-   img.setAttribute('src', '/assets/avatar.png.png')
+   img.setAttribute('src', '/assets/avatar.light.png')
   } else{
     //set tiver sem light mode, manter a imagem normal
     img.setAttribute('src','./assets/avatar.light.png')
-    Text.setAttribute('Eu; Daniel, dando um beijo na minha mulher; joici.', './assets/avatar.png.png ')
+    Text.setAttribute('Eu; Daniel, dando um beijo na minha mulher; joici.', './assets/avatar.png ')
   }
 
 
